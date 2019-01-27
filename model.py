@@ -14,8 +14,8 @@ ann = neural_network.MLPClassifier(solver = 'lbfgs' , shuffle = True , hidden_la
 # hidden_layer_sizes = <tuple>  whose ith entry represnt the no of units in ith hidden layer
 scaler = StandardScaler()
 
-df1 = pd.read_csv("D:/AI/datasets/hotelwifi_train.csv")
-df2 = pd.read_csv("D:/AI/datasets/hotelwifi_test.csv")
+df1 = pd.read_csv("train.csv")
+df2 = pd.read_csv("test.csv")
 df1=shuffle(df1)
 print(df1.head(6))
 
