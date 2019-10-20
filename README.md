@@ -18,10 +18,10 @@ Dependencies:
 
 1) Python Version 3.5 and above
 
-2) pandas
+2) Pandas
 
-3) numpy 
+3) Numpy 
 
-4) sklearn
+4) Sklearn
 
-4) matplotlib
+4) Matplotlib
